@@ -63,13 +63,13 @@ export default {
     extend(config, ctx) {}
   },
   env: {
-    firebaseAPIKey: "AIzaSyAfT05zG77hug9tzHflQrWv9IqEErr1TNM",
-    firebaseAuthDomain: "exapmple-45708.firebaseapp.com",
-    firebaseDatabaseURL: "https://exapmple-45708.firebaseio.com",
-    firebaseProjectId: "exapmple-45708",
-    firebaseStorageBucket: "exapmple-45708.appspot.com",
-    firebaseMessagingSenderId: "363463962940",
-    firebaseAppId: "1:363463962940:web:c0d5511f0686a3885bee39",
-    firebaseMeasurementId: "G-7765JYVYZM"
+    firebaseAPIKey: "",
+    firebaseAuthDomain: "",
+    firebaseDatabaseURL: "",
+    firebaseProjectId: "",
+    firebaseStorageBucket: "",
+    firebaseMessagingSenderId: "",
+    firebaseAppId: "",
+    firebaseMeasurementId: ""
   }
 };
