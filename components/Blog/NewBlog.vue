@@ -223,6 +223,7 @@ export default {
         photo: null,
         date: null,
         categories: ["yazilim"],
+        likes: [],
       },
     };
   },
