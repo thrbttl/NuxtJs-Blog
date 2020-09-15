@@ -20,7 +20,7 @@
           </div>
           <hr />
           <div class="blog-post pb-5">
-            <h2 class="blog-post-title text-uppercase text-info">{{blog.title}}</h2>
+            <h2 class="blog-post-title text-capitalize text-info">{{blog.title}}</h2>
             <p class="text-muted">{{blog.subTitle}}</p>
             <hr />
 
