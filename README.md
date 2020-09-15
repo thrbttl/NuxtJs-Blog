@@ -1,6 +1,7 @@
-# blogmilog
+# NuxtJs Blog
 
-> blog nuxtjs bilogmilog vuejs 
+- Sisteminizde [Node.Js](https://nodejs.org) kurulu olması gerekmektedir.
+- Firebase bağlantısı yapacağımız için [gmail](https://mail.google.com) adresi gerekmektedir.
 
 ## Build Setup
 
