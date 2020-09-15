@@ -22,7 +22,7 @@
               </a>
             </div>
           </div>
-          <h2 class="h5 blog-entry-title text-uppercase">
+          <h2 class="h5 blog-entry-title text-capitalize">
             <a href="#" @click.prevent="$router.push('/Blog/' + blog.id)">{{blog.title}}</a>
           </h2>
           <hr />
