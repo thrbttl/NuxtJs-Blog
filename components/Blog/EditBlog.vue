@@ -270,8 +270,12 @@ export default {
       document.execCommand(command, false, url);
     },
     execCommandImg(command) {
-      let ımgUrl = prompt("Enter the link here: ", "http://");
-      document.execCommand(command, false, ımgUrl);
+      let imgUrl;
+      if(!(imgUrl = prompt("Enter the link here: ", "http://"))) return;
+      document.execCommand(command, false, imgUrl);
+      var img = document.querySelector("img[src='" + imgUrl + "']");
+      img.style.width = "290px";
+
     },
 
     execCommandWithArg(command, event) {
