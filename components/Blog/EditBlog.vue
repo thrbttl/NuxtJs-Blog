@@ -274,7 +274,7 @@ export default {
       if(!(imgUrl = prompt("Enter the link here: ", "http://"))) return;
       document.execCommand(command, false, imgUrl);
       var img = document.querySelector("img[src='" + imgUrl + "']");
-        img.className = "col-10"
+        img.className = "col-md-10"
         img.alt = "NuxtJs Blog"
     },
 
