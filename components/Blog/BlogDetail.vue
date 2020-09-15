@@ -24,7 +24,7 @@
             <p class="text-muted">{{blog.subTitle}}</p>
             <hr />
 
-            <div id="textArea"></div>
+            <div class="text-secondary" id="textArea"></div>
           </div>
           <likes :likeBlog="{...blog.likes}" :blogId="blogDetail[0].id" />
           <!-- /.blog-post -->
