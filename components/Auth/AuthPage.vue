@@ -62,8 +62,8 @@ export default {
   data() {
     return {
       admin: {
-        email: "deneme@gmail.com",
-        password: "123456",
+        email: null,
+        password: null,
       },
       name: false,
     };
