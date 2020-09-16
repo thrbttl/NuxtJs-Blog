@@ -3,6 +3,18 @@
 - Sisteminizde [Node.Js](https://nodejs.org) kurulu olması gerekmektedir.
 - Firebase bağlantısı yapacağımız için [gmail](https://mail.google.com) adresi gerekmektedir.
 
+ # Projede kullanılan paketler : 
+    "@nuxtjs/axios": "^5.3.6",
+    "chart.js": "^2.9.3",
+    "firebase": "^7.19.1",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.27.0",
+    "nuxt": "^2.0.0",
+    "vue-chartjs": "^3.5.1",
+    "vuelidate": "^0.7.5"
+
+
+
   Kurulum için öncelikle Firebase işlemlerini gerçekleştirmeniz gerekmektedir. Bunun için [ilgili döküman](https://blognuxt1.ey.r.appspot.com/Blog/-MHGcC94Ri0xXmNi2765)'dan yararlanabilirsiniz.
 
 ## Build Setup
