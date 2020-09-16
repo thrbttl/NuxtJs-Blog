@@ -29,6 +29,9 @@
  [Blog Sistesinin Kurulumu Ve Firebase Işlemleri (2/1)](https://blognuxt1.ey.r.appspot.com/Blog/-MHGcC94Ri0xXmNi2765),  [Blog Sitesinin Local Kurulumu Ve Auth Işlemleri (2/2)](https://blognuxt1.ey.r.appspot.com/Blog/-MHISmcydA_DGXdxsG7K)
  - Firebase Web App ayarlarındaki "firebaseConfig" objesinin içeriğini, gitHub'dan indirdiğiniz projenin "nuxt.config.js" dosyasının içerisindeki "env" objesinde karşılık gelen yerlere yazınız.
  - Firebase "Storage" bağlantısı için, firebase sayfasından "Storage" sekmesine gidin ve başlatın. "Storage" içerisinden "Rules" sekmesine giderek ``` "allow read, write: if request.auth != null;" ``` kodundaki "null" silip yerine "true" yazınız.
+ 
+ ### Proje Klasöründe Terminal Üzerinden
+ (Projeyi açtığınız editörün (Visual Studio Code gibi) terminali kullanılabilir.)
 
 ``` bash
 # bağımlılıkları yüklemek için:
@@ -37,6 +40,8 @@ $ npm install
 # localhost:3000 üzerinden yayınlamak için:
 $ npm run dev
 ``` 
+
+### Firebase Sayfasından
 
 - Firebase "Authentication" işlemi için, firebase sayfasından "Authentication" sekmesine gidin ve "E-posta/Şifre" yazan başlığı seçerek kaydetme işlemini yapınız.
 - Authentication sekmesinden kullanıcı ekleyiniz.
