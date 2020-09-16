@@ -45,6 +45,10 @@ $ npm run dev
 
 - Firebase "Authentication" işlemi için, firebase sayfasından "Authentication" sekmesine gidin ve "E-posta/Şifre" yazan başlığı seçerek kaydetme işlemini yapınız.
 - Authentication sekmesinden kullanıcı ekleyiniz.
+
+### Projeyi Açtığınız Localhost bağlantısından
+(Genellikle tarayıcıda http://localhost:3000 üzerinden yayına alınır)
+
 - Admin girişi ve "Authentication" işlemini gerçekleştirmek için sayfanın en altında "Admin" yazan buton ile admin paneline gidiniz.
 
 ![Admin](https://firebasestorage.googleapis.com/v0/b/blognuxt1.appspot.com/o/npm%20auth%2FEkran%20Resmi%202020-09-16%2010.44.01.png?alt=media&token=4febefed-fcde-4bde-b09c-aad381e24ad0)
