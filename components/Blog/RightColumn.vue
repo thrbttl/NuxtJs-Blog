@@ -73,7 +73,7 @@
                 <img class="rounded" :src="blog.photo" :alt="blog.title" width="64" />
               </a>
               <div class="media-body pl-3">
-                <h6 class="blog-entry-title font-size-sm mb-0 text-uppercase">
+                <h6 class="blog-entry-title font-size-sm mb-0 text-capitalize">
                   <a href="#" @click.prevent="$router.push('/Blog/' + blog.id)">{{blog.title}}</a>
                 </h6>
                 <span class="font-size-ms text-muted">
