@@ -1,6 +1,6 @@
 # NuxtJs Blog
 
-- Baştan sona NuxtJs (dolayısıyla VueJs) ile geliştirlmiş ve geliştirilmeye devam eden bir Blog sitesi.
+- Baştan sona NuxtJs (dolayısıyla VueJs) ile geliştirilmiş ve geliştirilmeye devam eden bir Blog sitesi.
 - Database ve Authentication işlemleri için Firebase kullanıldı.
 - Gerçek hayattaki örneği ve demosu için : [NuxtJs Blog](https://blognuxt1.ey.r.appspot.com/)
 - Ziyaret ederek sayfa tasarımını, admin panelini gözden geçirebilirsiniz.
