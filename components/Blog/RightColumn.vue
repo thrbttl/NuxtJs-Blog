@@ -40,19 +40,20 @@
           </div>
           <div v-show="category" class="widget mb-grid-gutter pb-grid-gutter border-bottom">
             <h3 class="widget-title text-capitalize">{{category}} yazıları</h3>
-
             <div
-              :blog="blog"
-              v-for="blog in filteredCategoryBlog"
-              :key="blog.id"
+              v-for="categoryBlog in filteredCategoryBlog"
+              :key="categoryBlog.id"
               class="media align-items-center mb-3"
             >
               <a href="#">
-                <img class="rounded" :src="blog.photo" :alt="blog.title" width="64" />
+                <img class="rounded" :src="categoryBlog.photo" :alt="categoryBlog.title" width="64" />
               </a>
               <div class="media-body pl-3">
                 <h6 class="blog-entry-title font-size-sm mb-0 text-capitalize">
-                  <a href="#" @click.prevent="$router.push('/Blog/' + blog.id)">{{blog.title}}</a>
+                  <a
+                    href="#"
+                    @click.prevent="$router.push('/Blog/' + categoryBlog.id)"
+                  >{{categoryBlog.title}}</a>
                 </h6>
                 <span class="font-size-ms text-muted">
                   by
@@ -64,7 +65,6 @@
           <div class="widget mb-grid-gutter pb-grid-gutter border-bottom">
             <h3 class="widget-title">Rastgele Yazı</h3>
             <div
-              :blog="blog"
               v-for="blog in filteredBlog"
               :key="blog.id"
               class="media align-items-center mb-3"
