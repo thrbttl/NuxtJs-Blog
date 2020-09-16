@@ -1,9 +1,16 @@
 # NuxtJs Blog
 
-- Sisteminizde [Node.Js](https://nodejs.org) kurulu olması gerekmektedir.
-- Firebase bağlantısı yapacağımız için [gmail](https://mail.google.com) adresi gerekmektedir.
+- Baştan sona NuxtjS (dolayısıyla VueJs) ile geliştirlmiş ve geliştirilmeye devam eden bir Blog sitesi.
+- Database ve Authentication işlemleri için Firebase kullanıldı.
+- Gerçek hayattaki örneği ve demosu için : [NuxtJs Blog](https://blognuxt1.ey.r.appspot.com/)
+- Ziyaret ederek sayfa tasarımını, admin panelini gözden geçirebilirsiniz.
 
- # Projede kullanılan paketler : 
+### Gereksinimler
+
+* Sisteminizde [Node.Js](https://nodejs.org) kurulu olması gerekmektedir.
+* Firebase bağlantısı yapacağımız için [gmail](https://mail.google.com) adresi gerekmektedir.
+
+## Projede kullanılan paketler : 
     "@nuxtjs/axios": "^5.3.6",
     "chart.js": "^2.9.3",
     "firebase": "^7.19.1",
@@ -29,13 +36,14 @@ $ npm install
 # localhost:3000 üzerinden yayınlamak için:
 $ npm run dev
 ``` 
+
+- Firebase "Authentication" işlemi için, firebase sayfasından "Authentication" sekmesine gidin ve "E-posta/Şifre" yazan başlığı seçerek kaydetme işlemini yapınız.
+- Authentication sekmesinden kullanıcı ekleyiniz.
 - Admin girişi ve "Authentication" işlemini gerçekleştirmek için sayfanın en altında "Admin" yazan buton ile admin paneline gidiniz.
 
 ![Admin](https://firebasestorage.googleapis.com/v0/b/blognuxt1.appspot.com/o/npm%20auth%2FEkran%20Resmi%202020-09-16%2010.44.01.png?alt=media&token=4febefed-fcde-4bde-b09c-aad381e24ad0)
 
-- Firebase "Authentication" işlemi için, firebase sayfasından "Authentication" sekmesine gidin ve "E-posta/Şifre" yazan başlığı seçerek kaydetme işlemini yapınız.
-- Authentication sekmesinden kullanıcı ekleyiniz.
-- "http://localhost:3000/auth" sayfasına giderek E-posta ve Şifreniz ile giriş yapınız.
+- E-posta ve Şifreniz ile giriş yapınız.
 - Admin panelinden Profil bilgilerinizi eksiksiz olarak girip kaydediniz.
 - Panelden istediğiniz gibi içerik ekleyerek, düzenlemeler yaparak Blog sitesini kullanabilirsiniz.
 
