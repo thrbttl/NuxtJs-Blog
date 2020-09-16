@@ -12,11 +12,13 @@
     "nuxt": "^2.0.0",
     "vue-chartjs": "^3.5.1",
     "vuelidate": "^0.7.5"
+    
+    *** Bu paketler $ npm install komutu ile otamatik olarak yüklenecektir.
 
 
 ## Build Setup
 
- - Kurulum için öncelikle Firebase işlemlerini gerçekleştirmeniz gerekmektedir. Bunun için [ilgili döküman(2/1)](https://blognuxt1.ey.r.appspot.com/Blog/-MHGcC94Ri0xXmNi2765), [ilgili döküman(2/2)](https://blognuxt1.ey.r.appspot.com/Blog/-MHISmcydA_DGXdxsG7K)'lardan yararlanabilirsiniz.
+ - Kurulum için öncelikle Firebase işlemlerini gerçekleştirmeniz gerekmektedir. Bunun için [ilgili döküman(2/1)](https://blognuxt1.ey.r.appspot.com/Blog/-MHGcC94Ri0xXmNi2765),  [ilgili döküman(2/2)](https://blognuxt1.ey.r.appspot.com/Blog/-MHISmcydA_DGXdxsG7K)'lardan yararlanabilirsiniz.
  - Firebase Web App ayarlarındaki "firebaseConfig" objesinin içeriğini, gitHub'dan indirdiğiniz projenin "nuxt.config.js" dosyasının içerisindeki "env" objesinde karşılık gelen yerlere yazınız.
  - Firebase "Storage" bağlantısı için, firebase sayfasından "Storage" sekmesine gidin ve başlatın. "Storage" içerisinden "Rules" sekmesine giderek ``` "allow read, write: if request.auth != null;" ``` kodundaki "null" silip yerine "true" yazınız.
 
