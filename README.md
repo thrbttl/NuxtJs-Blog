@@ -3,6 +3,8 @@
 - Sisteminizde [Node.Js](https://nodejs.org) kurulu olması gerekmektedir.
 - Firebase bağlantısı yapacağımız için [gmail](https://mail.google.com) adresi gerekmektedir.
 
+  Kurulum için öncelikle Firebase işlemlerini gerçekleştirmeniz gerekmektedir. Bunun için [ilgili döküman](https://blognuxt1.ey.r.appspot.com/Blog/-MHGcC94Ri0xXmNi2765)'dan yararlanabilirsiniz.
+
 ## Build Setup
 
 ``` bash
