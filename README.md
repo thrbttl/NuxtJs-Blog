@@ -30,7 +30,7 @@
  - Firebase Web App ayarlarındaki "firebaseConfig" objesinin içeriğini, gitHub'dan indirdiğiniz projenin "nuxt.config.js" dosyasının içerisindeki "env" objesinde karşılık gelen yerlere yazınız.
  - Firebase "Storage" bağlantısı için, firebase sayfasından "Storage" sekmesine gidin ve başlatın. "Storage" içerisinden "Rules" sekmesine giderek ``` "allow read, write: if request.auth != null;" ``` kodundaki "null" silip yerine "true" yazınız.
  
- ### Proje Klasöründe Terminal Üzerinden
+ #### Proje Klasöründe Terminal Üzerinden
  (Projeyi açtığınız editörün (Visual Studio Code gibi) terminali kullanılabilir.)
 
 ``` bash
@@ -41,12 +41,12 @@ $ npm install
 $ npm run dev
 ``` 
 
-### Firebase Sayfasından
+#### Firebase Sayfasından
 
 - Firebase "Authentication" işlemi için, firebase sayfasından "Authentication" sekmesine gidin ve "E-posta/Şifre" yazan başlığı seçerek kaydetme işlemini yapınız.
 - Authentication sekmesinden kullanıcı ekleyiniz.
 
-### Projeyi Açtığınız Localhost bağlantısından
+#### Projeyi Açtığınız Localhost bağlantısından
 (Genellikle tarayıcıda http://localhost:3000 üzerinden yayına alınır)
 
 - Admin girişi ve "Authentication" işlemini gerçekleştirmek için sayfanın en altında "Admin" yazan buton ile admin paneline gidiniz.
