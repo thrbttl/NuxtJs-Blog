@@ -22,12 +22,12 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Baştan sona NuxtJs (VueJs) ile geliştirilmiş blog sitesi.",
+        content: "Baştan sona NuxtJs (VueJs) ile geliştirilmiş blog sitesi. (Tahir Battal tarafından geliştirildi: https://blog.tahirbattal.com.tr)",
       },
       { name: "robots", content: "index, follow" },
       {
         name: "keywords",
-        content: "JavaScript, NuxtJs, VueJs, blog, expressJs, node.js",
+        content: "JavaScript, NuxtJs, VueJs, blog, expressJs, node.js, Tahir Battal",
       },
       { name: "author", content: "Tahir Battal" },
     ],
