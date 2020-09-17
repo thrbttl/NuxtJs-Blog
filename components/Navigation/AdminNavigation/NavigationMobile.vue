@@ -9,7 +9,7 @@
             </div>
           </router-link>
 
-          <router-link tag="li" class="items col-12 pl-5 ml-1 " :to="'/admin/profile'">
+          <router-link tag="li" class="items col-12 pl-5" :to="'/admin/profile'">
             <label class="avatar-text">{{adminData[0].author}}</label>
           </router-link>
         </div>
