@@ -24,7 +24,7 @@
             class="badge badge-pill badge-danger px-4"
           >Blog Yazısı Siliniyor...</span>
 
-          <button class="btn btn-danger ml-auto mr-5 mb-5" @click.prevent="deleteComment">Sil</button>
+          <button class="btn btn-danger ml-auto mr-1 mb-5" @click.prevent="deleteComment">Sil</button>
         </div>
       </div>
     </div>
