@@ -31,6 +31,26 @@ import Table from "@/components/Admin/Table";
 import MainTodo from "@/components/Admin/Todo/MainTodo";
 
 export default {
+  head: {
+    title: "Admin Paneli",
+    meta: [
+      { charset: "utf-8" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Baştan sona NuxtJs (VueJs) ile geliştirilmiş blog sitesi. (Tahir Battal tarafından geliştirildi: https://blog.tahirbattal.com.tr)",
+      },
+      { name: "robots", content: "index, follow" },
+      {
+        name: "keywords",
+        content:
+          "JavaScript, NuxtJs, VueJs, blog, expressJs, node.js, Tahir Battal",
+      },
+      { name: "author", content: "Tahir Battal" },
+    ],
+  },
+
   layout: "adminLayout",
 
   components: {
