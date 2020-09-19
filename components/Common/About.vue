@@ -13,39 +13,38 @@
         <div class="row form-row align-items-center">
           <div class="col-3">
             <div class="img-square">
-              <!-- <img src="../../static/image/a1.jpg" alt="..." class="img-cover" /> -->
-              <img class="img-cover" alt="..." src="../../static/image/a1-min.png"/>
+              <img class="img-cover" alt="..." src="../../static/image/a1-min.jpg"/>
             </div>
           </div>
           <div class="col-6">
             <div class="row form-row align-items-end mb-2">
               <div class="col-7">
                 <div class="img-square">
-                  <img src="../../static/image/a4-min.png" alt="..." class="img-cover" />
+                  <img src="../../static/image/a4-min.jpg" alt="..." class="img-cover" />
                 </div>
               </div>
               <div class="col-5">
                 <div class="img-square">
-                  <img src="../../static/image/a3-min.png" alt="..." class="img-cover" />
+                  <img src="../../static/image/a3-min.jpg" alt="..." class="img-cover" />
                 </div>
               </div>
             </div>
             <div class="row form-row">
               <div class="col-5">
                 <div class="img-square">
-                  <img src="../../static/image/a2-min.png" alt="..." class="img-cover" />
+                  <img src="../../static/image/a2-min.jpg" alt="..." class="img-cover" />
                 </div>
               </div>
               <div class="col-7">
                 <div class="img-square">
-                  <img src="../../static/image/a5-min.png" alt="..." class="img-cover" />
+                  <img src="../../static/image/a5-min.jpg" alt="..." class="img-cover" />
                 </div>
               </div>
             </div>
           </div>
           <div class="col-3">
             <div class="img-square">
-              <img src="../../static/image/a6-min.png" alt="..." class="img-cover" />
+              <img src="../../static/image/a6-min.jpg" alt="..." class="img-cover" />
             </div>
           </div>
         </div>
