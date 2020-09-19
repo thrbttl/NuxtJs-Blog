@@ -103,7 +103,7 @@ export default {
 section {
   width: 100%;
   height: 100vh;
-  background: url(../../static/image/auth-bg-min.png);
+  background: url(../../static/image/auth-bg-min.jpg);
   background-size: cover;
   font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 1px;
