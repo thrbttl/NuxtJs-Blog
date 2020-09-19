@@ -21,8 +21,9 @@
     "vuelidate": "^0.7.5"
     
     *** Bu paketler $ npm install komutu ile otamatik olarak yüklenecektir.
-
-
+    
+    Projede CDN (İçerik Dağıtım Ağı) olarak "Bootstrap" ve "Fontawesome" Kullanıldı.
+    
 ## Kurulum
 
  - Kurulum için öncelikle Firebase işlemlerini gerçekleştirmeniz gerekmektedir. Bunun için kullanabileceğiniz dökümanlar :  
