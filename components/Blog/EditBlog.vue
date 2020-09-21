@@ -220,7 +220,7 @@ export default {
         date: null,
         categories: this.blogId.categories,
         comments: this.blogId.comments,
-        likes: this.blogId.likes,
+        likes: this.blogId.likes == null ? null : this.blogId.likes,
       },
     };
   },
@@ -304,7 +304,7 @@ export default {
           userId: this.blogId.userId,
           date: null,
           comments: this.blogId.comments,
-          likes: this.blogId.likes,
+          likes: this.blogId.likes == null ? null : this.blogId.likes,
         };
   },
 };
