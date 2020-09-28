@@ -28,6 +28,7 @@
 
  - Kurulum için öncelikle Firebase işlemlerini gerçekleştirmeniz gerekmektedir. Bunun için kullanabileceğiniz dökümanlar :  
  [NuxtJs Blog Sistesinin Kurulumu Ve Firebase Işlemleri (2/1)](https://blog.tahirbattal.com.tr/Blog/-MHGcC94Ri0xXmNi2765),  [NuxtJs Blog Sitesinin Local Kurulumu Ve Auth Işlemleri (2/2)](https://blog.tahirbattal.com.tr/Blog/-MHISmcydA_DGXdxsG7K)
+ - Proje deploy işlemi için : [NustJs Deploy Google App Engine](https://blog.tahirbattal.com.tr/Blog/-MIB6QKCFik91OIimkS7)
  - Firebase Web App ayarlarındaki "firebaseConfig" objesinin içeriğini, gitHub'dan indirdiğiniz projenin "nuxt.config.js" dosyasının içerisindeki "env" objesinde karşılık gelen yerlere yazınız.
  - Firebase "Storage" bağlantısı için, firebase sayfasından "Storage" sekmesine gidin ve başlatın. "Storage" içerisinden "Rules" sekmesine giderek ``` "allow read, write: if request.auth != null;" ``` kodundaki "null" silip yerine "true" yazınız.
  
